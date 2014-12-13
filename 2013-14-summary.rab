@@ -1,0 +1,36 @@
+= ゲームときどきシナトラ
+
+: subtitle
+   Sinatra札幌2013-14活動報告
+: author
+   Masafumi Yokoyama
+# : institution
+#    Sinatra札幌
+: content-source
+   Sinatra/Padrino勉強会
+: date
+   2014/12/20
+: allotted-time
+   45m
+: theme
+   nyankosakana
+
+= 自己紹介
+
+    # image
+    # src = my-icon.png
+    # relative_width = 40
+    # align = right
+    # relative_argin_right = -10
+
+  * @myokoym
+  * Sinatra札幌
+  * 将棋アマ三段
+  * ヌルゲーマー
+
+= Ruby Kaja 2013
+
+  # image
+  # src = ruby-kaja-2013.jpg
+  # relative_height = 100
+
