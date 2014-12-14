@@ -84,30 +84,46 @@
 
 何かと組み合わせて使っていた
 
-= 発表テーマ検討
+= 何か
 
-伝わりやすいようにテーマを絞る
+  * Rabbit
+  * Gosu
 
-= 発表テーマ検討
+= Rabbitとは
 
-  * 「ゲームは2回メインで当確」
-  * 「さすがにそれだけでは…」
-  * 「選挙…比例…」
-  * 「対比させてみるか」
+  * ...
+
+= Ruby/GTK2とは
+
+  * ...
+
+= Gosuとは
+
+  * ...
 
 = テーマ
 
 (('tag:center'))
-(('tag:large'))
-ゲームとSinatraの対比
+vs.
+
+= vs.（versus）とは
+
+  # blockquote
+
+  【前置詞】\n
+  1. (訴訟・競技などで)…対，…に対する\n
+  2. …と対比して、比較して
+
+= 対比させてみる
 
 = 粒度を合わせる
 
-  * フレームワーク
-    * ゲーム
-      * Gosu
-    * Webアプリケーション
-      * Sinatra
+  * GUIアプリケーション
+    * Ruby/GTK2、GTK+
+  * ゲーム
+    * Gosu、SDL
+  * Webアプリケーション
+    * Sinatra、Rack
 
 = ポイント
 
@@ -118,12 +134,12 @@
 
   # RT
 
-  Gosu, Sinatra
-  デスクトップ\nアプリケーション, Webサーバー、\nWebブラウザー
+  GTK+, SDL, Rack
+  デスクトップアプリ, デスクトップアプリ, Webサーバー、Webブラウザー
 
 = 動作モデル
 
   # RT
 
-  Gosu, Sinatra
-  フレームレート、\nイベント, HTTPリクエスト、\nJavaScript
+  GTK+, SDL, Rack
+  イベント駆動, フレームレート、イベント, HTTPリクエスト、JavaScript
