@@ -1,4 +1,4 @@
-# TODO: スライドのタイトル
+# ゲーム vs. Sinatra
 
 TODO: スライドの説明
 

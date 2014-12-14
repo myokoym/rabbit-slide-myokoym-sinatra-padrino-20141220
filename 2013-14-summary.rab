@@ -1,7 +1,7 @@
-= ゲームときどきシナトラ
+= ゲーム vs. Sinatra
 
-: subtitle
-   Sinatra札幌2013-14活動報告
+# : subtitle
+#    Sinatra札幌2013-14 my活動報告
 : author
    Masafumi Yokoyama
 # : institution
@@ -11,7 +11,7 @@
 : date
    2014/12/20
 : allotted-time
-   45m
+   40m
 : theme
    nyankosakana
 
@@ -34,3 +34,69 @@
   # src = ruby-kaja-2013.jpg
   # relative_height = 100
 
+= よろしくお願いします。\n\nm(_ _)m
+
+= 話したいこと
+
+2013年から2014年にかけてのSinatra札幌での活動について
+
+= 年表（序盤）
+
+  * 2013/11/24
+    * 最初の勉強会
+    * Sinatraと見せかけてRabbitの話
+  * 2014/02/08
+    * 札幌市中央区Ruby会議01
+    * RubyでGUIする話
+
+= 年表（中盤）
+
+  * 2014/05/10
+    * 二回目の勉強会
+    * Sinatraと見せかけてGosuの話
+  * 2014/06/14
+    * OSC 2014 Hokkaido
+    * Sinatraの帽子を使ったゲームを展示
+
+= 年表（終盤）
+
+  * 2014/08/17
+    * SinatraSapporoSuturday#01
+    * ArduinoでLEDをチカチカして納涼
+  * 2014/10/11、2014/11/16
+    * SinatraSapporoSaturday#02
+    * SinatraSapporoSunday#03
+    * Padrinoを使い始めた
+
+= ちょっとwait
+
+  # coderay ruby
+
+  events.count |event|
+    event.Sinatraメイン?
+  end
+
+= 0
+
+= …
+
+= 発表テーマ検討
+
+伝わりやすいようにテーマを絞る
+
+= 発表テーマ検討
+
+  * 「ゲームは2回メインで当確」
+  * 「さすがにそれだけでは…」
+  * 「選挙ゲームってないのかな」
+  * 「そうか、比例復活だ」
+
+= 比例
+
+よくわかんないけどSinatraっぽいことは（ほぼ）毎回やってるわ
+
+= 発表テーマ
+
+(('tag:center'))
+(('tag:large'))
+ゲーム vs. Sinatra
