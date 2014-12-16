@@ -197,7 +197,7 @@ GTK+ 2のRubyバインディング
   * C言語で記述されたGUIツールキット
     * GUIを構成する部品の集まり
   * マルチプラットフォーム
-    * Linux, Windows, OS X
+    * Linux、Windows、OS X
 
 = 何か
 
@@ -221,26 +221,35 @@ GTK+ 2のRubyバインディング
   C++ programming languages, available for Mac OS X, 
   Windows, and Linux.
 
-(('tag:center'))
-(('note:http://www.libgosu.org/'))
+  (('note:http://www.libgosu.org/'))
 
 = Gosuとは
 
   * 2Dゲーム開発ライブラリ
   * RubyとC++向け
   * マルチプラットフォーム
+    * OS X、Windows、Linux、Raspbian
+    * iOS（C++）、Android（WIP）
 
 = Gosu 0.8.6
 
   * 現時点での最新リリース版
     * gem install gosu
-  * SDL((*2*))ベース
+  * SDL2ベース
   * Ruby 2.1対応
-    * RubyInstaller for Windowsも！
+    * RubyInstaller for Windowsも
 
 = SDLとは
 
-  * ...
+  * Simple DirectMedia Layer
+    * マルチメディアライブラリー
+    * 主にゲーム用途
+  * C言語で記述
+  * マルチプラットフォーム
+
+= SDL2
+
+  * iOS、Android対応
 
 = テーマ
 
