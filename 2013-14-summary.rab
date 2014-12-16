@@ -28,6 +28,15 @@
   * 将棋アマ三段
   * ヌルゲーマー
 
+= 札幌の将棋事情
+
+  * 北海道将棋会館
+    * 札幌市中央区)南4西9
+  * 北海道将棋連盟のブログ
+    * (('note:http://doshoren.blog.fc2.com/'))
+  * 札幌将棋情報のブログ
+    * (('note:http://blogs.yahoo.co.jp/sapporoshogijoho'))
+
 = Ruby Kaja 2013
 
   # image
@@ -38,6 +47,7 @@
 
 = 話したいこと
 
+(('tag:center'))
 2013年から2014年にかけてのSinatra札幌での活動について
 
 = 年表（序盤）
@@ -49,6 +59,18 @@
     * 札幌市中央区Ruby会議01
     * RubyでGUIする話
 
+= 札幌市中央区Ruby会議01 2014年2月8日（土）
+
+  # image
+  # src = chuork01-ss.png
+  # relative_height = 100
+  # reflect_ratio = 0.1
+
+== プロパティ
+
+:enable-title-on-image
+  true
+
 = 年表（中盤）
 
   * 2014/05/10
@@ -57,6 +79,18 @@
   * 2014/06/14
     * OSC 2014 Hokkaido
     * Sinatraの帽子を使ったゲームを展示
+
+= OSC 2014 Hokkaido
+
+  # image
+  # src = osc2014hokkaido.jpg
+  # relative_height = 100
+  # reflect_ratio = 0.1
+
+== プロパティ
+
+:enable-title-on-image
+  true
 
 = 年表（終盤）
 
@@ -71,7 +105,6 @@
 = ちょっとwait
 
   # coderay ruby
-
   events.count |event|
     event.Sinatraメイン?
   end
@@ -82,34 +115,142 @@
 
 = 理由
 
+(('tag:center'))
 何かと組み合わせて使っていた
 
 = 何か
 
-  * Rabbit
-  * Gosu
+  * 1. Rabbit
+    * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo01/'))
+
+  * 2. Gosu
+    * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo02/'))
+
+= 1. Rabbit
+
+== property
+
+:as_large_as_possible
+  true
 
 = Rabbitとは
 
-  * ...
+  # blockquote
+  Rubyで書かれた((*プログラマー向け*))のプレゼンテーションツール
+
+= Lavie
+
+  # image
+  # src = lavie.png
+  # relative_height = 100
+
+= Rabbitの特徴
+
+  * 文章はテキストで記述
+    * RD、Wiki、Markdownなど
+  * 装飾（テーマ）はRubyで記述
+    * RubyGemsで簡単に追加
+  * バージョン管理しやすい
+
+= Rabbitの特徴
+
+  * Ruby-GNOME2（Ruby/GTK2など）を使っている
+
+= Ruby-GNOME2とは
+
+  # blockquote
+  Ruby-GNOME2はGNOMEで使用されるGTK+などの主要なライブラリの
+  Rubyバインディング集です。
+
+  (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))
+
+= Ruby-GNOME2とは
+
+  # blockquote
+  GTK+はマルチプラットフォーム対応のGUIツールキットなので、マ
+  ルチプラットフォーム対応のGUIアプリケーションをRubyで書くこ
+  とができます。
+
+  (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))
+
+= なぜRuby-GNOME2か
+
+  # image
+  # src = logo-gy.svg
+  # relative_height = 60
+
+(('tag:center'))
+楽しくプログラミングできる
 
 = Ruby/GTK2とは
 
-  * ...
+GTK+ 2のRubyバインディング
+
+  * 旧バージョン
+    * GTK+ 2の開発はほぼ終了
+  * 採用実績が多く、安定性は高い
+    * Rabbit（プレゼンツール）
+    * mikutter（Twitterクライアント）
+
+= GTK+とは
+
+  * C言語で記述されたGUIツールキット
+    * GUIを構成する部品の集まり
+  * マルチプラットフォーム
+    * Linux, Windows, OS X
+
+= 何か
+
+  * 1. Rabbit
+    * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo01/'))
+
+  * 2. Gosu
+    * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo02/'))
+
+= 2. Gosu
+
+== property
+
+:as_large_as_possible
+  true
 
 = Gosuとは
+
+  # blockquote
+  Gosu is a 2D game development library for the Ruby and 
+  C++ programming languages, available for Mac OS X, 
+  Windows, and Linux.
+
+(('tag:center'))
+(('note:http://www.libgosu.org/'))
+
+= Gosuとは
+
+  * 2Dゲーム開発ライブラリ
+  * RubyとC++向け
+  * マルチプラットフォーム
+
+= Gosu 0.8.6
+
+  * 現時点での最新リリース版
+    * gem install gosu
+  * SDL((*2*))ベース
+  * Ruby 2.1対応
+    * RubyInstaller for Windowsも！
+
+= SDLとは
 
   * ...
 
 = テーマ
 
 (('tag:center'))
+(('tag:xx-large'))
 vs.
 
 = vs.（versus）とは
 
   # blockquote
-
   【前置詞】\n
   1. (訴訟・競技などで)…対，…に対する\n
   2. …と対比して、比較して
@@ -133,13 +274,11 @@ vs.
 = 動作環境
 
   # RT
-
   GTK+, SDL, Rack
-  デスクトップアプリ, デスクトップアプリ, Webサーバー、Webブラウザー
+  デスクトップ（ネイティブ）アプリ, デスクトップ（ネイティブ）アプリ, Webサーバー、Webブラウザー
 
 = 動作モデル
 
   # RT
-
   GTK+, SDL, Rack
   イベント駆動, フレームレート、イベント, HTTPリクエスト、JavaScript
