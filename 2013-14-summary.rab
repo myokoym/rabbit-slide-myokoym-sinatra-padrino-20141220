@@ -45,10 +45,19 @@
 
 = よろしくお願いします。\n\nm(_ _)m
 
-= 話したいこと
+= 話すこと
 
-(('tag:center'))
-2013年から2014年にかけてのSinatra札幌での活動について
+  * 第一部
+    * 2013年から2014年にかけてのSinatra札幌での活動について
+  * 第二部
+    * 表題の件
+
+= 第一部
+
+== property
+
+:as_large_as_possible
+  true
 
 = 年表（序盤）
 
@@ -59,7 +68,7 @@
     * 札幌市中央区Ruby会議01
     * RubyでGUIする話
 
-= 札幌市中央区Ruby会議01 2014年2月8日（土）
+= 札幌市中央区Ruby会議01
 
   # image
   # src = chuork01-ss.png
@@ -126,14 +135,15 @@
   * 2. Gosu
     * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo02/'))
 
-= 1. Rabbit
+= 何か
 
-== property
+  * ((*1. Rabbit*))
+    * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo01/'))
 
-:as_large_as_possible
-  true
+  * 2. Gosu
+    * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo02/'))
 
-= Rabbitとは
+= Rabbit
 
   # blockquote
   Rubyで書かれた((*プログラマー向け*))のプレゼンテーションツール
@@ -156,7 +166,7 @@
 
   * Ruby-GNOME2（Ruby/GTK2など）を使っている
 
-= Ruby-GNOME2とは
+= Ruby-GNOME2
 
   # blockquote
   Ruby-GNOME2はGNOMEで使用されるGTK+などの主要なライブラリの
@@ -164,7 +174,7 @@
 
   (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))
 
-= Ruby-GNOME2とは
+= Ruby-GNOME2
 
   # blockquote
   GTK+はマルチプラットフォーム対応のGUIツールキットなので、マ
@@ -182,7 +192,7 @@
 (('tag:center'))
 楽しくプログラミングできる
 
-= Ruby/GTK2とは
+= Ruby/GTK2
 
 GTK+ 2のRubyバインディング
 
@@ -192,7 +202,7 @@ GTK+ 2のRubyバインディング
     * Rabbit（プレゼンツール）
     * mikutter（Twitterクライアント）
 
-= GTK+とは
+= GTK+
 
   * C言語で記述されたGUIツールキット
     * GUIを構成する部品の集まり
@@ -204,17 +214,10 @@ GTK+ 2のRubyバインディング
   * 1. Rabbit
     * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo01/'))
 
-  * 2. Gosu
+  * ((*2. Gosu*))
     * (('note:http://slide.rabbit-shocker.org/authors/myokoym/sinatrasapporo02/'))
 
-= 2. Gosu
-
-== property
-
-:as_large_as_possible
-  true
-
-= Gosuとは
+= Gosu
 
   # blockquote
   Gosu is a 2D game development library for the Ruby and 
@@ -223,7 +226,7 @@ GTK+ 2のRubyバインディング
 
   (('note:http://www.libgosu.org/'))
 
-= Gosuとは
+= Gosu
 
   * 2Dゲーム開発ライブラリ
   * RubyとC++向け
@@ -239,7 +242,7 @@ GTK+ 2のRubyバインディング
   * Ruby 2.1対応
     * RubyInstaller for Windowsも
 
-= SDLとは
+= SDL
 
   * Simple DirectMedia Layer
     * マルチメディアライブラリー
@@ -251,13 +254,34 @@ GTK+ 2のRubyバインディング
 
   * iOS、Android対応
 
+= 第一部まとめ
+
+= Sinatra最高
+
+  # image
+  # src = firehats.png
+  # relative_height = 100
+  # reflect_ratio = 0.1
+
+== プロパティ
+
+:enable-title-on-image
+  true
+
+= 第二部
+
+== property
+
+:as_large_as_possible
+  true
+
 = テーマ
 
 (('tag:center'))
 (('tag:xx-large'))
 vs.
 
-= vs.（versus）とは
+= vs.（versus）
 
   # blockquote
   【前置詞】\n
