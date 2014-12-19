@@ -1,7 +1,7 @@
 = ゲーム vs. Sinatra
 
-: subtitle
-   〜体験版〜
+# : subtitle
+#    Sinatra札幌2013-14 my活動報告
 : author
    Masafumi Yokoyama
 # : institution
@@ -14,11 +14,6 @@
    40m
 : theme
    nyankosakana
-
-= はじめに
-
-このスライドは((*(('tag:italic:体験版'))*))です。
-予告なく内容が変更になる場合がありますのでご了承ください。
 
 = 自己紹介
 
@@ -48,6 +43,8 @@
   # src = ruby-kaja-2013.jpg
   # relative_height = 100
 
+= よろしくお願いします。\n\nm(_ _)m
+
 = 話すこと
 
   * 第一部
@@ -60,7 +57,7 @@
 == property
 
 :as_large_as_possible
-  false
+  true
 
 = 年表（序盤）
 
@@ -81,7 +78,7 @@
 == プロパティ
 
 :enable-title-on-image
-  false
+  true
 
 = 年表（中盤）
 
@@ -102,7 +99,7 @@
 == プロパティ
 
 :enable-title-on-image
-  false
+  true
 
 = 年表（終盤）
 
@@ -258,12 +255,24 @@ GTK+ 2のRubyバインディング
 
 = 第一部まとめ
 
+= Sinatra最高
+
+  # image
+  # src = firehats.png
+  # relative_height = 100
+  # reflect_ratio = 0.1
+
+== プロパティ
+
+:enable-title-on-image
+  true
+
 = 第二部
 
 == property
 
 :as_large_as_possible
-  false
+  true
 
 = テーマ
 
@@ -331,7 +340,7 @@ Webアプリ
 == property
 
 :as_large_as_possible
-  false
+  true
 
 = ポイント
 
@@ -464,4 +473,17 @@ Webアプリ
     * 何でもできる
     * マルチメディアな使い方も
 
-= ご視聴ありがとうございました。当日も来てね。
+= 結論
+
+(('tag:center'))
+やっぱり
+
+(('tag:center'))
+(('tag:xx-large'))
+適材適所
+
+= おわりに
+
+  * Sinatra楽しいょ！
+  * ゲームやGUIも楽しいょ！
+  * 組み合わせても○
