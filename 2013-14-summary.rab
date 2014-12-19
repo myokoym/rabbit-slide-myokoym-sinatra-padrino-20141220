@@ -154,7 +154,7 @@
   # src = lavie.png
   # relative_height = 100
 
-= Rabbitの特徴
+= Rabbit
 
   * 文章はテキストで記述
     * RD、Wiki、Markdownなど
@@ -162,7 +162,7 @@
     * RubyGemsで簡単に追加
   * バージョン管理しやすい
 
-= Rabbitの特徴
+= Rabbit
 
   * Ruby-GNOME2（Ruby/GTK2など）を使っている
 
@@ -206,8 +206,18 @@ GTK+ 2のRubyバインディング
 
   * C言語で記述されたGUIツールキット
     * GUIを構成する部品の集まり
+    * ボタン、テキストボックスなど
   * マルチプラットフォーム
     * Linux、Windows、OS X
+
+= GUIツールキット
+
+  * マルチプラットフォーム（C/C++）
+    * GTK+, Qt, Tk
+  * Mac OS X
+    * Cocoa
+  * Windows
+    * .NET Framework
 
 = 何か
 
@@ -245,10 +255,18 @@ GTK+ 2のRubyバインディング
 = SDL
 
   * Simple DirectMedia Layer
-    * マルチメディアライブラリー
+    * マルチメディアライブラリ
     * 主にゲーム用途
   * C言語で記述
   * マルチプラットフォーム
+
+= ゲーム・マルチメディア\nライブラリ/フレームワーク
+
+  * マルチプラットフォーム
+    * SDL、OpenGL
+    * Cocos2d、Unity
+  * Windows
+    * DirectX
 
 = SDL2
 
@@ -304,14 +322,187 @@ vs.
   * 動作環境
   * 動作モデル
 
+= ポイント
+
+  * ((*動作環境*))
+  * 動作モデル
+
 = 動作環境
 
   # RT
   GTK+, SDL, Rack
   デスクトップ（ネイティブ）アプリ, デスクトップ（ネイティブ）アプリ, Webサーバー、Webブラウザー
 
+= 構図
+
+(('tag:center'))
+(('tag:large'))
+ネイティブアプリ\n
+vs.\n
+Webアプリ
+
+= ネイティブアプリ
+
+  * 動作速度が速い
+  * デバイスの機能を活かせる
+    * push通知など
+
+= Webアプリ
+
+  * リリース、インストールが楽
+  * 他のサービスと連携しやすい
+    * 使われる技術が限られる
+    * HTTP、JavaScript
+
+= 適材\n適所
+
+== property
+
+:as_large_as_possible
+  true
+
+= ポイント
+
+  * 動作環境
+  * ((*動作モデル*))
+
 = 動作モデル
 
   # RT
   GTK+, SDL, Rack
-  イベント駆動, フレームレート、イベント, HTTPリクエスト、JavaScript
+  イベント駆動, フレームレート×イベント, HTTP、JavaScript
+
+= 動作モデル
+
+  * イベント駆動
+  * フレームレート
+  * HTTP
+
+= 動作モデル
+
+  * ((*イベント駆動*))
+  * フレームレート
+  * HTTP
+
+= イベント駆動
+
+  # blockquote
+  起動すると共にイベントを待機し、起こったイベントにしたがって処理を行う
+
+= イベント駆動
+
+  * イベントを待機
+    * イベントハンドラ
+  * イベント
+    * マウス、キーボードなど
+
+= イベントハンドラ\n（コールバック関数）
+
+  * イベントが起こったときの処理を記述
+  * クリックやアクティブ化など
+
+= Ruby/GTK2の\nイベントハンドラ
+
+  # coderay ruby
+  window.signal_connect("destroy") do
+    # ウィンドウが閉じられた時の処理
+  end
+
+  button.signal_connect("clicked") do
+    # ボタンがクリックされた時の処理
+  end
+
+= 動作モデル
+
+  * イベント駆動
+  * ((*フレームレート*))
+  * HTTP
+
+= フレームレート
+
+  * 1秒間に一定回数の処理を行う
+  * 1秒間に60回の場合、60fps
+    * ((*f*))rame ((*p*))er ((*s*))econd
+
+= 1フレームの主な処理
+
+  * 状態の更新
+    * イベントや時間経過による
+  * 画面への描画
+
+= Gosu
+
+  # coderay ruby
+  class Game < Gosu::Window
+    def update
+      # 1秒間に約60回呼ばれる
+    end
+
+    def draw
+      # updateとセットで呼ばれる
+    end
+  end
+
+  Game.new(640, 480, false).show
+
+= 動作モデル
+
+  * イベント駆動
+  * フレームレート
+  * ((*HTTP*))
+
+= HTTP
+
+  * 「何を」「どう」したいか
+  * リクエスト-レスポンス型
+
+= 「何を」
+
+  * URL
+    * http://<ホスト名>/[パス]...
+
+= 「どう」
+
+  * メソッド
+    * GET
+    * POST
+    * ...
+
+= Sinatra
+
+  # coderay ruby
+  get "/" do
+    # http://host.name/ の処理
+  end
+
+  post "/new"
+    # フォーム等の /new の処理
+  end
+
+= リクエスト-レスポンス型
+
+  * クライアントからサーバーへリクエスト
+  * サーバーがレスポンスを返したら一区切り
+  * 基本的に状態を保存しない
+    * セッションやDBなどを使えば可能
+
+= JavaScript
+
+  * プログラミング言語
+    * 何でもできる
+    * マルチメディアな使い方も
+
+= 結論
+
+(('tag:center'))
+やっぱり
+
+(('tag:center'))
+(('tag:xx-large'))
+適材適所
+
+= おわりに
+
+  * Sinatra楽しいょ！
+  * ゲームやGUIも楽しいょ！
+  * 組み合わせても○
