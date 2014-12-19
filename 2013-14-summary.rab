@@ -149,7 +149,9 @@
 = Rabbit
 
   # blockquote
-  Rubyで書かれた((*プログラマー向け*))のプレゼンテーションツール
+  Rubyist用プレゼンツール
+
+  (('note:http://rabbit-shocker.org/'))
 
 = Lavie
 
@@ -165,9 +167,14 @@
     * RubyGemsで簡単に追加
   * バージョン管理しやすい
 
-= Rabbit
+= Ruby-GNOME2
 
-  * Ruby-GNOME2（Ruby/GTK2など）を使っている
+  # image
+  # src = logo-gy.svg
+  # relative_height = 80
+
+(('tag:center'))
+(('note:http://ruby-gnome2.sourceforge.jp/ja/'))
 
 = Ruby-GNOME2
 
@@ -186,15 +193,6 @@
 
   (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))
 
-= なぜRuby-GNOME2か
-
-  # image
-  # src = logo-gy.svg
-  # relative_height = 60
-
-(('tag:center'))
-楽しくプログラミングできる
-
 = Ruby/GTK2
 
 GTK+ 2のRubyバインディング
@@ -212,15 +210,6 @@ GTK+ 2のRubyバインディング
     * ボタン、テキストボックスなど
   * マルチプラットフォーム
     * Linux、Windows、OS X
-
-= GUIツールキット
-
-  * マルチプラットフォーム（C/C++）
-    * GTK+, Qt, Tk
-  * Mac OS X
-    * Cocoa
-  * Windows
-    * .NET Framework
 
 = 何か
 
@@ -262,14 +251,6 @@ GTK+ 2のRubyバインディング
     * 主にゲーム用途
   * C言語で記述
   * マルチプラットフォーム
-
-= ゲーム・マルチメディア\nライブラリ/フレームワーク
-
-  * マルチプラットフォーム
-    * SDL、OpenGL
-    * Cocos2d、Unity
-  * Windows
-    * DirectX
 
 = SDL2
 
