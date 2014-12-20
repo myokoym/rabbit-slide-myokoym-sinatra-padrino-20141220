@@ -4,6 +4,9 @@ base_name: 2013-14-season
 tags:
 - rabbit
 - sinatrasapporo
+- gui
+- game
+- web
 presentation_date: 2014/12/20
 version: 2014.12.20.1
 licenses:
