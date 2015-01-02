@@ -263,6 +263,7 @@ GTK+ 3のRubyバインディング
 
   # image
   # src = Sdl-logo.png
+  # relative_height = 60
 
 (('tag:center'))
 (('note:https://www.libsdl.org/'))
